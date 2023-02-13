@@ -3,7 +3,7 @@ const router = express.Router()
 const presidentesArg = require('../api/presidentesArg.json')
 
 router.get('/', ( req,res )=>{
-    res.render('index')
+    res.render('index.ejs')
     // req.url
 })
 
