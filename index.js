@@ -13,6 +13,6 @@ app.use(cors())
 app.use('/', require('./routes/apiRoutes'))
 
 // Start the server in the PORT
-app.listen( process.env.PORT || PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
     console.log(`the server is running in port ${PORT}, go catch it!`)
 })
